@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.6.0.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Programming Language Suggester</title>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <h1><strong>Programming Language Suggester</strong></h1>
+
+      <p>There are many programming languages out there. To find your preferred language, we need to learn a little about you:</p>
+
+        <form id="questions">
+          <label for = "age"><strong>Age</strong></label>
+          <select class="form-control" id="age">
+            <option value = "under-25">Under 25</option>
+            <option value = "over-25">Over 25</option>
+          </select>
+
+          <label for="os"><strong>Operating System</strong></label>
+          <select class = "form-control" id="os">
+            <option value="MAC">MAC</option>
+            <option value="PC">PC</option>
+            <option value="Mozarts-Ghost">Mozart's Ghost</option>
+          </select>
+
+          <label for="eye-color"><strong>Eye Color</strong></label>
+          <select class = "form-control" id="eye-color">
+            <option value="brown">Brown</option>
+            <option value="blue">Blue</option>
+            <option value="green">Green</option>
+            <option value="grey">Grey</option>
+          </select>
+
+          <label for="ice-cream"><strong>Ice Cream Flavor</strong></label>
+          <select class = "form-control" id="ice-cream">
+            <option value="chocolate">Chocolate</option>
+            <option value="vanilla">Vanilla</option>
+          </select>
+
+          <label for="car"><strong>Dream Car</strong></label>
+          <select class = "form-control" id="car">
+           <option value="audi">Audi</option>
+            <option value="lamborghini">Lamborghini</option>
+            <option value="dodge">Dodge</option>
+            <option value="ford">Ford</option>
+            <option value="porsche">Porsche</option>
+          </select>
+  
+      </div>  
+        
+           <button type="submit" class="btn btn-success">Find my programming language - <strong>SUBMIT!</strong></button>
+    
+    </form>
+  </div>
+
+  <div class="container">
+    <div id="result1">
+      <h1>Ruby</h1>
+      <p>The Ruby programming language is a highly portable general-purpose language that serves many purposes. Ruby is great for building desktop applications, static websites, data processing services, and even automation tools. It's used for web servers, DevOps, and web scraping and crawling.</p>
+      <img src="img/ruby-programming-language.png" alt="Ruby logo.">
+    </div>
+    <div id="result2">
+      <h1>C#</h1>
+      <p>C# is widely used for developing desktop applications, web applications and web services. It is used in creating applications of Microsoft at a large scale. C# is also used in game development in Unity.</p>
+      <img src="img/c-sharp.png" alt="C# logo.">
+    </div>
+    <div id="result3">
+      <h1>JavaScript</h1>
+      <p>JavaScript, often abbreviated JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. Over 97% of websites use JavaScript on the client side for web page behavior, often incorporating third-party libraries.</p>
+      <img src="img/JavaScript-logo.png" alt="JavaScript logo.">
+    </div>
+  </div>
+
+</body>
+</html>
+

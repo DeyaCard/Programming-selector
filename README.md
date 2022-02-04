@@ -18,7 +18,7 @@ Basic website utilizing JavaScript and jQuery to gather and return user informat
 
 ## Setup/Installation Requirements
 
-* https://github.com/DeyaCard/Programming-Language-Suggester
+* https://github.com/DeyaCard/Programming-selector
 * Clone this repository
 * Navigate to the top of directory
 * Open index.html in your browser
